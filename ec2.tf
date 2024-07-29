@@ -18,6 +18,6 @@ resource "aws_instance" "server2" {
     availability_zone = "us-east-1b"
     ami = "ami-03972092c42e8c0ca"
     tags = {
-      Name = "Webé"
+      Name = "Web2"
     }
 }
